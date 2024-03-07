@@ -1,0 +1,20 @@
+{
+  "include": [
+    "**/src/**/*.ts",
+    "typings.d.ts"
+  ],
+  "compilerOptions": {
+    "composite": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "types": ["node"],
+    "baseUrl": "./",
+    "allowJs": true,
+    "jsx": "preserve",
+    "noEmit": false,
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "skipLibCheck": true
+  }
+}
