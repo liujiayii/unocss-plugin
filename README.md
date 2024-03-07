@@ -12,3 +12,4 @@
  - npm config set registry https://registry.npmjs.org
  - npm config set //registry.npmjs.org/:_authToken=${NPM_TOKEN}
  - npm publish --access public
+ - npm config set registry https://registry.npmmirror.com

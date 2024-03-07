@@ -1,7 +1,7 @@
 {
   "name": "@liujiayii-vip/vite-plugin-uni-unocss",
-  "version": "1.0.0",
-  "type": "module",
+  "version": "1.0.1",
+  "type": "commonjs",
   "description": "使tailwindcss、windicss、unocss编译出来的css能够支持uniapp的小程序端、app-nvue端",
   "keywords": [
     "tailwindcss",
@@ -12,6 +12,7 @@
   "homepage": "https://github.com/liujiayii/unocss-plugin",
   "author": "<liujiayii@foxmail.com>",
   "module": "./es/index.js",
+  "main": "./es/index.js",
   "types": "./es/index.d.ts",
   "files": [
     "es"

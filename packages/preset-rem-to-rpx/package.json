@@ -1,7 +1,7 @@
 {
   "name": "@liujiayii-vip/preset-rem-to-rpx",
-  "version": "1.0.0",
-  "type": "module",
+  "version": "1.0.1",
+  "type": "commonjs",
   "author": "<liujiayii@foxmail.com>",
   "description": "把rem转换为rpx",
   "homepage": "https://github.com/liujiayii/unocss-plugin",
@@ -9,6 +9,7 @@
     "unocss",
     "unocss-preset"
   ],
+  "main": "./es/index.js",
   "module": "./es/index.js",
   "types": "./es/index.d.ts",
   "files": [
